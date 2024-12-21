@@ -21,7 +21,9 @@ def parse_article_content(context, link):
 
 def get_top_story():
     """
-    获取 Google Finance 主页的 Today's financial news """
+    获取 Google Finance 首页 Today's financial news 栏目的
+    Top stories
+    """
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
