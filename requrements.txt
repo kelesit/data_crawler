@@ -1,0 +1,6 @@
+crawl4ai>=1.0.0
+schedule>=1.1.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+python-dateutil>=2.8.0

@@ -1,0 +1,9 @@
+2025-02-27 00:25:03,269 - economic_data_scheduler - INFO - 调度器已启动，将按计划执行爬虫任务
+2025-02-27 00:25:03,269 - economic_data_scheduler - INFO - 计划任务: Job(interval=1, unit=days, do=crawl_marketwatch, args=(), kwargs={}), 下一次执行时间: 2025-02-27 09:00:00
+2025-02-27 00:25:03,269 - economic_data_scheduler - INFO - 计划任务: Job(interval=1, unit=days, do=crawl_marketwatch, args=(), kwargs={}), 下一次执行时间: 2025-02-27 18:00:00
+2025-02-27 00:25:03,269 - economic_data_scheduler - INFO - 计划任务: Job(interval=1, unit=days, do=crawl_investing, args=(), kwargs={}), 下一次执行时间: 2025-02-27 09:30:00
+2025-02-27 00:25:03,270 - economic_data_scheduler - INFO - 计划任务: Job(interval=1, unit=days, do=crawl_investing, args=(), kwargs={}), 下一次执行时间: 2025-02-27 18:30:00
+2025-02-27 00:25:03,270 - economic_data_scheduler - INFO - 开始 MarketWatch 计划任务: 2025-02-27 00:25:03
+2025-02-27 00:25:03,270 - economic_data_scheduler - ERROR - MarketWatch 任务执行失败: 'NoneType' object is not callable
+2025-02-27 00:25:03,270 - economic_data_scheduler - INFO - 开始 Investing.com 计划任务: 2025-02-27 00:25:03
+2025-02-27 00:25:03,270 - economic_data_scheduler - ERROR - Investing.com 任务执行失败: 'NoneType' object is not callable

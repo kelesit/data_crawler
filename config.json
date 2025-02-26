@@ -1,0 +1,25 @@
+{
+    "output_directory": "./data",
+    "schedule": {
+        "marketwatch_morning": "09:00",
+        "marketwatch_evening": "18:00",
+        "investing_morning": "09:30",
+        "investing_evening": "18:30"
+    },
+    "marketwatch": {
+        "url": "https://www.marketwatch.com/economy-politics/calendar",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        },
+        "timeout": 60
+    },
+    "investing": {
+        "url": "https://www.investing.com/earnings-calendar/",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        },
+        "timeout": 90
+    },
+    "retry_times": 3,
+    "retry_interval": 5
+}
